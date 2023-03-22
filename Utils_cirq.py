@@ -160,7 +160,7 @@ def mixer_layer(in_circuit, qubits, beta_value: float):
     # and mixer() would in-place change in_circuit
 
     n_qubits = len(circuit.get_independent_qubit_sets())
-    circuit.append([cirq.X(q) ** beta_value for q in qubits],
+    circuit.append([cirq.X(q) ** (beta_value * np.pi) for q in qubits],
                    strategy=InsertStrategy.NEW_THEN_INLINE)
     # adding an X-gate to the power of beta_value to every qubit. Using an insert strategy to put them all in the same moment
     # for better readability in the diagram later

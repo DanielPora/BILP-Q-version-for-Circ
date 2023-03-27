@@ -1,7 +1,9 @@
 ## Cirq Implementation
 
 "Overview.ipynb" provides an overview on the proccess of creating the QAOA circuit and finding the lowest energy level by QAOA
+
 "Utils_cirq.py" contains all neccessary functions
+
 "multi_agent" was used for experiments with different settings (agents, layers, hyper paremters) and logging results. It also contains the Q_optim function which allows to optimize for 4 agents.
 
 

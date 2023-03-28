@@ -1,4 +1,11 @@
-## Cirq Implementation
+## Cirq Implementation of BILP-Q
+
+
+This repository is concerned with the BILP-Q implementation of in Criq.
+The original code of the Qiskit implementation can be found at:
+https://github.com/supreethmv/BILP-Q
+
+BILP-Q is based on the paper BILP-Q: Quantum Coalition Structure Generation, published in the [19th ACM International Conference on Computing Frontiers (CF'22)](https://www.computingfrontiers.org/2022/index.html). 
 
 "Overview.ipynb" provides an overview on the proccess of creating the QAOA circuit and finding the lowest energy level by QAOA
 
